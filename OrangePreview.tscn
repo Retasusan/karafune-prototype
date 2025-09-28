@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://cv4pbgc3goq1i"]
+
+[ext_resource type="Texture2D" uid="uid://crfnxr303iccl" path="res://オレンジ.png" id="1_sk0dy"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_71csw"]
+radius = 35.510563
+
+[node name="OrangePreview" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("1_sk0dy")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 5)
+shape = SubResource("CircleShape2D_71csw")

@@ -1,0 +1,24 @@
+[gd_scene load_steps=8 format=3 uid="uid://cwm7c4meqmo6f"]
+
+[ext_resource type="PackedScene" uid="uid://cw4op06f2f1bf" path="res://Player.tscn" id="1_glv2v"]
+[ext_resource type="Script" uid="uid://dglejy2fmbwwf" path="res://Main.gd" id="1_uu6xs"]
+[ext_resource type="PackedScene" uid="uid://cv4pbgc3goq1i" path="res://OrangePreview.tscn" id="2_cm0pq"]
+[ext_resource type="PackedScene" uid="uid://cuvu6ns65d0kt" path="res://Orange.tscn" id="3_fos0i"]
+[ext_resource type="PackedScene" uid="uid://d2qrrmu8y37jf" path="res://ApplePreview.tscn" id="3_lgr22"]
+[ext_resource type="PackedScene" uid="uid://cafp67lo4kwsm" path="res://Bascket.tscn" id="5_fos0i"]
+[ext_resource type="PackedScene" uid="uid://drwx3hftvq4up" path="res://Apple.tscn" id="5_trn2v"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_uu6xs")
+player = NodePath("Player")
+fruit_preview_scenes = Array[PackedScene]([ExtResource("2_cm0pq"), ExtResource("3_lgr22")])
+fruit_scenes = Array[PackedScene]([ExtResource("3_fos0i"), ExtResource("5_trn2v")])
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(574, 324)
+
+[node name="Player" parent="." instance=ExtResource("1_glv2v")]
+
+[node name="Bascket" parent="." instance=ExtResource("5_fos0i")]

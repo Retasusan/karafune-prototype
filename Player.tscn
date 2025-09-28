@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cw4op06f2f1bf"]
+
+[ext_resource type="Script" uid="uid://dwoeu07et06cw" path="res://Player.gd" id="1_kpjcp"]
+[ext_resource type="Texture2D" uid="uid://8ol2gadkukv5" path="res://大砲.png" id="1_xhfnw"]
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_kpjcp")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-2, 73.00004)
+rotation = -2.195624
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("1_xhfnw")

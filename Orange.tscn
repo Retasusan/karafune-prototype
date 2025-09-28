@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://cuvu6ns65d0kt"]
+
+[ext_resource type="Script" uid="uid://sh0jddc3jyhb" path="res://Fruit.gd" id="1_atdut"]
+[ext_resource type="Texture2D" uid="uid://crfnxr303iccl" path="res://オレンジ.png" id="1_cqove"]
+[ext_resource type="PackedScene" uid="uid://drwx3hftvq4up" path="res://Apple.tscn" id="2_o2o4e"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_atdut"]
+radius = 37.48333
+
+[node name="Orange" type="RigidBody2D"]
+script = ExtResource("1_atdut")
+next_fruit_scene = ExtResource("2_o2o4e")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-1.9999998, 94.99999)
+scale = Vector2(0.2, 0.20050251)
+texture = ExtResource("1_cqove")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2, 101)
+shape = SubResource("CircleShape2D_atdut")
