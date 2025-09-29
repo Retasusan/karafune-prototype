@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bykhg2mxx218t"
-path="res://.godot/imported/りんご.png-00249a0ec830db25afebb8b9a5daa47a.ctex"
+uid="uid://crfnxr303iccl"
+path="res://.godot/imported/オレンジ.png-1b8297d668e65b75bb2f2b397f74c93a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://りんご.png"
-dest_files=["res://.godot/imported/りんご.png-00249a0ec830db25afebb8b9a5daa47a.ctex"]
+source_file="res://assets/images/オレンジ.png"
+dest_files=["res://.godot/imported/オレンジ.png-1b8297d668e65b75bb2f2b397f74c93a.ctex"]
 
 [params]
 
