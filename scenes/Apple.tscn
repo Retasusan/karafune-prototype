@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://drwx3hftvq4up"]
 
-[ext_resource type="Texture2D" uid="uid://bykhg2mxx218t" path="res://りんご.png" id="1_t6odu"]
+[ext_resource type="Texture2D" uid="uid://bykhg2mxx218t" path="res://assets/images/りんご.png" id="1_t6odu"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_37lne"]
 radius = 38.052597

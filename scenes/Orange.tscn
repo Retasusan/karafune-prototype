@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://cuvu6ns65d0kt"]
 
-[ext_resource type="Script" uid="uid://sh0jddc3jyhb" path="res://Fruit.gd" id="1_atdut"]
-[ext_resource type="Texture2D" uid="uid://crfnxr303iccl" path="res://オレンジ.png" id="1_cqove"]
-[ext_resource type="PackedScene" uid="uid://drwx3hftvq4up" path="res://Apple.tscn" id="2_o2o4e"]
+[ext_resource type="Script" uid="uid://sh0jddc3jyhb" path="res://scripts/Fruit.gd" id="1_atdut"]
+[ext_resource type="Texture2D" uid="uid://crfnxr303iccl" path="res://assets/images/オレンジ.png" id="1_cqove"]
+[ext_resource type="PackedScene" uid="uid://drwx3hftvq4up" path="res://scenes/Apple.tscn" id="2_o2o4e"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_atdut"]
 radius = 37.48333

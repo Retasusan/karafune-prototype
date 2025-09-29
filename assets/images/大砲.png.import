@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://crfnxr303iccl"
-path="res://.godot/imported/オレンジ.png-1b8297d668e65b75bb2f2b397f74c93a.ctex"
+uid="uid://8ol2gadkukv5"
+path="res://.godot/imported/大砲.png-2b9f890b7b7ddeb21b5663948decfeb6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://オレンジ.png"
-dest_files=["res://.godot/imported/オレンジ.png-1b8297d668e65b75bb2f2b397f74c93a.ctex"]
+source_file="res://assets/images/大砲.png"
+dest_files=["res://.godot/imported/大砲.png-2b9f890b7b7ddeb21b5663948decfeb6.ctex"]
 
 [params]
 

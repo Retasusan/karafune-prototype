@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://8ol2gadkukv5"
-path="res://.godot/imported/大砲.png-2b9f890b7b7ddeb21b5663948decfeb6.ctex"
+uid="uid://bykhg2mxx218t"
+path="res://.godot/imported/りんご.png-00249a0ec830db25afebb8b9a5daa47a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://大砲.png"
-dest_files=["res://.godot/imported/大砲.png-2b9f890b7b7ddeb21b5663948decfeb6.ctex"]
+source_file="res://assets/images/りんご.png"
+dest_files=["res://.godot/imported/りんご.png-00249a0ec830db25afebb8b9a5daa47a.ctex"]
 
 [params]
 
